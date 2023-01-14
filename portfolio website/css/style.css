@@ -1,0 +1,143 @@
+.{
+    margin: 0;
+    padding: 0;
+    
+}
+.sidebar{
+  background-color: rgb(118, 117, 117); 
+  width: 434px;
+  font-family: 'Fira Sans', sans-serif;
+  height: 100vh;
+}
+.sidebar nav{
+  padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+  
+  height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.button{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(52, 80, 150);
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color:  rgb(52, 80, 150);;
+}
+.btn-sn{
+     font-size: 10px;
+     padding: 7px 13px;
+     margin: 10px 0;
+}
+.devpic img{
+    height: 58vh;
+}
+
+.contactform{
+    padding-top: 244px;
+    padding: 0 34px;
+}
+.contactform form div{
+padding: 10px 0;
+display: flex;
+flex-direction: column;
+}
+.contactform form div input{
+    padding: 3px;
+    width: 26vw;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    }
+#emailHelp{
+  font-size: 8px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+h1{
+    margin: 23px;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: sans-serif;
+    margin: 12px;
+}
+.intro p{
+font-family: sans-serif;
+margin: 12px;
+}
+.intro h2{
+    padding: 10px 10px 0 20px;
+}
+.intro p{
+    padding: 10px 10px 0 20px;
+}
+
+.skill ul li{
+    padding: 20px 10px 0 0;
+}
+
+.education ul li{
+ padding: 20px 10px 0 0;
+}
+.education h2{
+    padding: 10px 10px 0 20px;
+}
+.activity ul li{
+    padding: 20px 10px 0 0;
+}
+.activity h2{
+    padding: 10px 10px 0 20px;
+}
+.project li{
+    padding: 20px 10px 0 0;
+}
+.project h2{
+    padding: 10px 10px 0 20px;
+}
